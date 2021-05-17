@@ -5,7 +5,7 @@ Website: http://www.wowace.com/projects/libbase64-1-0/
 Description: A library to encode and decode Base64 strings
 License: MIT
 ]]
-local LibBase64 = LibStub:NewLibrary('LibBase64-1.0', 2)
+local LibBase64 = LibStub:NewLibrary('LibBase64-1.0-SUI', 2)
 if not LibBase64 then
 	return
 end
